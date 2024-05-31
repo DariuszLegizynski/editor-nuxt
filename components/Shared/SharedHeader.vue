@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header class="fixed top-0 left-0 flex justify-between items-center px-2 z-10 h-12 bg-white w-full">
+  <nav class="fixed top-0 left-0 flex justify-between items-center px-2 z-10 h-12 bg-white w-full">
     Logo
     <BaseBurger
       @click="isBurgerActive = !isBurgerActive"
@@ -30,5 +30,5 @@
 			</li>
 		</ul>
 	</aside>
-  </header>
+  </nav>
 </template>

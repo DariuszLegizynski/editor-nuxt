@@ -6,9 +6,9 @@
   <article>
     <section>
       <div class="h3">
-        Sprachdienstlieches Angebot
+        Sprachdienste im Angebot
       </div>
-      <h1>Unsere Leistungen</h1>
+      <h1>Meine Leistungen</h1>
       <section>
         <div>
           <div>ICON</div>
