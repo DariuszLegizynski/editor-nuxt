@@ -4,7 +4,7 @@
 
 <template>
   <article>
-    <Image src="@/assets/images/hero/hero.jpg" alt="hero" />
+    <img src="@/assets/images/hero/hero.jpg" alt="hero" />
     <div class="h3">
       O mnie
     </div>

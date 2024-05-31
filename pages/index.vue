@@ -3,4 +3,5 @@
   <HomeServices />
   <HomeAbout />
   <HomeTestimonials />
+  <HomeContact />
 </template>

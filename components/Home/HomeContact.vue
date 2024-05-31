@@ -7,6 +7,7 @@
         <span>Email: paulina.kowalska@test.com</span>
         <span>Adres: ul. Testowa 1, 00-000 Warszawa</span>
       </div>
+      </section>
   </article>
 </template>
 

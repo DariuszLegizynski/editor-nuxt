@@ -1,7 +1,7 @@
 <template>
-	<article class="w-full">
-		<GlobalHeader />
+	<article>
+		<SharedHeader />
 		<slot />
-		<GlobalFooter />
+		<SharedFooter />
 	</article>
 </template>
