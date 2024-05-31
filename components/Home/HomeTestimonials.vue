@@ -5,7 +5,7 @@
 <template>
   <article>
     <section>
-      <h1>Moi klienci</h1>
+      <h1>Opinie klientów</h1>
       <div>
         <div>
           <span>Opinia klienta 1 lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
