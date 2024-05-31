@@ -3,4 +3,5 @@
   <HomeHero />
   <HomeServices />
   <HomeAbout />
+  <HomeTestimonials />
 </template>
