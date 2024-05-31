@@ -1,5 +1,6 @@
 <template>
   <Header />
-  <Hero />
-  <Services />
+  <HomeHero />
+  <HomeServices />
+  <HomeAbout />
 </template>

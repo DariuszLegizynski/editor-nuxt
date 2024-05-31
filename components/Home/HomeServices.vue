@@ -39,6 +39,7 @@
           </p>
         </div>
       </section>
+      <BaseButton>Kontakieren Sie mich</BaseButton>
     </section>
 
   </article>
