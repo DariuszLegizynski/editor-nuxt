@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
 	css: ["~/assets/css/tailwind.css"],
 	devtools: { enabled: true },
-	modules: ["@nuxtjs/strapi"],
-})
+	modules: ["@nuxtjs/tailwindcss", "@nuxtjs/strapi", "@nuxt/image"],
+	image: {
+		dir: "assets/images",
+	},
 
+})
