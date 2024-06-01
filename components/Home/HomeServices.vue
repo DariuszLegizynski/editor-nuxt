@@ -3,15 +3,15 @@
 </script>
 
 <template>
-  <article>
+  <article class="mt-28">
     <section>
-      <div class="h3">
+      <div class="h3 text-primary text-center uppercase">
         Sprachdienste im Angebot
       </div>
-      <h1>Meine Leistungen</h1>
+      <h1 class="uppercase tracking-[3px] text-center my-6">Meine Leistungen</h1>
       <section>
         <div>
-          <div>ICON</div>
+          <BaseIcons type="document" width="6rem" height="6rem" />
           <h2>Übersetzungen</h2>
           <p>
             Ich biete professionelle Übersetzungen in den Sprachen Deutsch, Englisch, Polnisch und Russisch an.
