@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('@/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format("truetype");
+  font-weight: 100 900;
+  font-stretch: 25% 100%;
+}
+
+@font-face {
+  font-family: 'Montserrat-italic';
+  src: url('@/assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format("truetype");
+  font-weight: 100 900;
+  font-stretch: 25% 100%;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('@/assets/fonts/Roboto-fFex/RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf') format("truetype");
+  font-weight: 100 900;
+  font-stretch: 25% 100%;
+}

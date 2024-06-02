@@ -1,3 +1,5 @@
+@import "./fonts.css";
+
 html {
 	/* prettier-ignore */
 	font-size: 16px;
@@ -5,19 +7,19 @@ html {
 
 h1,
 .h1 {
-	@apply text-[2.7rem];
+	@apply text-[1.5rem];
 }
 
 h2,
 .h2 {
-	@apply text-[2.35rem];
+	@apply text-[1rem];
 }
 
 h3,
 .h3 {
-	@apply text-[2.074rem];
+	@apply text-[0.8rem];
 }
-
+/* 
 h4,
 .h4 {
 	@apply text-[1.728rem];
@@ -31,7 +33,7 @@ h5,
 h6,
 .h6 {
 	@apply text-[1.3rem];
-}
+} */
 
 p,
 .p {
