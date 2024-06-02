@@ -1,7 +1,5 @@
 <template>
-	<article>
-		<SharedHeader />
-		<slot />
-		<SharedFooter />
-	</article>
+	<SharedHeader />
+	<slot />
+	<SharedFooter />
 </template>
