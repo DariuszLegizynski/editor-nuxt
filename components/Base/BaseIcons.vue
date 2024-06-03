@@ -69,4 +69,36 @@
 			/>
 		</g>
 	</svg>
+	<svg v-if="type === 'phone'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :fill="fill" viewBox="0 0 48 48">
+		<g>
+			<path
+				fill="none"
+				stroke="#000"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="m23.5947,15.0005c.548-1.0177,1.1956-1.996,1.9428-2.9205.7344-.9086.6287-2.236-.1974-3.0621l-3.832-3.832c-.9854-.9854-2.5956-.8934-3.4904.1749-9.0143,10.7619-9.0143,26.515,0,37.2768.8948,1.0683,2.5022,1.163,3.4876.1777l3.4162-3.4162c1.2472-1.2472,1.3503-2.5721.616-3.4807-.7472-.9245-1.3948-1.9027-1.9428-2.9205-.6703-1.2448-1.9774-2.0111-3.3913-2.0111h-3.2796c-1.3552-4.5526-1.3552-9.4226,0-13.9752h3.2796c1.4138,0,2.7209-.7663,3.3913-2.0111Z"
+			></path>
+		</g>
+	</svg>
+	<svg v-if="type === 'email'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :fill="fill" viewBox="0 0 48 48">
+		<path
+			fill="none"
+			stroke="#000"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			d="M6.47 10.71a2 2 0 0 0-2 2h0v22.61a2 2 0 0 0 2 2h35.06a2 2 0 0 0 2-2h0V12.68a2 2 0 0 0-2-2H6.47Zm33.21 3.82L24 26.07 8.32 14.53"
+		/>
+	</svg>
+	<svg v-if="type === 'home'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :fill="fill" viewBox="0 0 48 48">
+		<g>
+			<path
+				d="M42.63 21.85 26 7.64a3 3 0 0 0-3.9 0L5.37 21.85a2.43 2.43 0 0 0-.29 3.44 2.39 2.39 0 0 0 1.92.87h2.09v13.29a1.63 1.63 0 0 0 1.63 1.63h7.35a1.63 1.63 0 0 0 1.63-1.63v-8.18a1 1 0 0 1 1-1h6.64a1 1 0 0 1 1 1v8.18a1.63 1.63 0 0 0 1.63 1.63h7.35a1.63 1.63 0 0 0 1.63-1.63V26.16H41a2.44 2.44 0 0 0 1.59-4.31Z"
+				fill="none"
+				stroke="#000"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			/>
+			<path d="M32.45 13.18V7.92a.4.4 0 0 1 .39-.39h5.68a.4.4 0 0 1 .39.39h0v10.75" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+		</g>
+	</svg>
 </template>
