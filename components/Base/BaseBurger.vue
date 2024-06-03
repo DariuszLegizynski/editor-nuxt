@@ -11,29 +11,26 @@
 
 <template>
 	<div class="flex relative size-12 justify-center items-center cursor-pointer">
-		<div
-			class="burger-stick"
-			:class="{ active }"
-		/>
+		<div class="burger-stick" :class="{ active }" />
 	</div>
 </template>
 
 <style scoped>
 	.burger-stick {
-		@apply w-9 h-[0.2rem] bg-black transition-all duration-500 ease-in-out rounded;
+		@apply w-6 h-[0.16rem] bg-white transition-all duration-500 ease-in-out rounded;
 	}
 
 	.burger-stick::before,
 	.burger-stick::after {
-		@apply content-[''] w-9 h-[0.2rem] absolute bg-black transition-all duration-500 ease-in-out rounded;
+		@apply content-[''] w-6 h-[0.16rem] absolute bg-white transition-all duration-500 ease-in-out rounded;
 	}
 
 	.burger-stick::before {
-		transform: translate(0px, -10px);
+		transform: translate(0px, -6px);
 	}
 
 	.burger-stick::after {
-		transform: translate(0px, 10px);
+		transform: translate(0px, 6px);
 	}
 
 	.active {
