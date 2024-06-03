@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-	<article class="flex flex-col items-center px-4">
+	<article id="about" class="flex flex-col items-center px-4">
 		<img class="mb-16" src="@/assets/images/hero/hero.jpg" alt="hero" />
 		<div class="h3 text-primary uppercase">O mnie</div>
 		<h1 class="my-4">Paulina Kowalska</h1>
