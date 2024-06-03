@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-	<article class="mt-28">
+	<article id="services" class="mt-28">
 		<section>
 			<div class="h3 text-primary text-center uppercase">Sprachdienste im Angebot</div>
 			<h1 class="uppercase tracking-[3px] text-center my-6">Meine Leistungen</h1>
