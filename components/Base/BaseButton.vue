@@ -4,13 +4,16 @@
 			type: String,
 			default: "",
 		},
+		link: {
+			type: String,
+			default: "/",
+		},
 	})
 
 	const { variant } = toRefs(props)
 
 	const classes = computed(() => {
-		const baseClasses =
-			"border-2 px-4 py-2 pointer transition ease-in-out rounded"
+		const baseClasses = "border-2 px-4 py-2 pointer transition ease-in-out rounded"
 		if (variant.value === "outline") {
 			return `${baseClasses} bg-tertiary bg-opacity-30 border-white text-white hover:bg-primary hover:text-secondary`
 		}
@@ -28,10 +31,7 @@
 </script>
 
 <template>
-	<NuxtLink
-		to="/"
-		:class="classes"
-	>
+	<NuxtLink :to="link" :class="classes">
 		<slot></slot>
 	</NuxtLink>
 </template>
