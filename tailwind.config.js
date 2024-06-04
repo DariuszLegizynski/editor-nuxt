@@ -5,7 +5,7 @@ export default {
 		extend: {
 			colors: {
 				primary: "hsl(6, 14%, 72%)",
-				secondary: "hsl(6, 14%, 72%)",
+				secondary: "hsl(7, 14%, 85%)",
 				tertiary: "hsl(16, 28%, 40%)",
 				contrast: "hsl(46, 65%, 52%)",
 				black: "hsl(5, 0%, 0%)",

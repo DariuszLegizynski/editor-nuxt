@@ -9,7 +9,7 @@
 		</section>
 		<section class="px-4 grid gap-y-1">
 			<div class="flex mb-6">
-				<h1 class="text-secondary">Copywriting</h1>
+				<h1 class="text-primary">Copywriting</h1>
 				<h1 class="decorative">&nbsp;/</h1>
 			</div>
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between uppercase text-secondary tracking-widest">
@@ -17,8 +17,8 @@
 				<p>cena</p>
 			</div>
 			<hr class="w-full border-t-2 border-secondary" />
-			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between text-seco">
-				<p class="text-secondary">korekta i edycja pism</p>
+			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
+				<p class="text-primary">korekta i edycja pism</p>
 				<div class="grid grid-rows-2 text-right">
 					<p class="text-tertiary">100&nbsp;€</p>
 					<p class="text-secondary">za stronę</p>
@@ -26,7 +26,7 @@
 			</div>
 			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p class="text-secondary">tłumaczenie dokumentów i pomoc w ich zrozumieniu</p>
+				<p class="text-primary">tłumaczenie dokumentów i pomoc w ich zrozumieniu</p>
 				<div class="grid grid-rows-2 text-right">
 					<p class="text-tertiary">100&nbsp;€</p>
 					<p class="text-secondary">za stronę</p>
@@ -34,7 +34,7 @@
 			</div>
 			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p class="text-secondary">odpowiadanie na pisma urzędowe</p>
+				<p class="text-primary">odpowiadanie na pisma urzędowe</p>
 				<div class="grid grid-rows-2 text-right">
 					<p class="text-tertiary">100&nbsp;€</p>
 					<p class="text-secondary">za stronę</p>
@@ -42,7 +42,7 @@
 			</div>
 			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p class="text-secondary">pomoc sprawach publicznych</p>
+				<p class="text-primary">pomoc sprawach publicznych</p>
 				<div class="grid grid-rows-2 text-right">
 					<p class="text-tertiary">100&nbsp;€</p>
 					<p class="text-secondary">za stronę</p>
@@ -50,7 +50,7 @@
 			</div>
 			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p class="text-secondary">przepisywanie pism</p>
+				<p class="text-primary">przepisywanie pism</p>
 				<div class="grid grid-rows-2 text-right">
 					<p class="text-tertiary">100&nbsp;€</p>
 					<p class="text-secondary">za stronę</p>
@@ -58,7 +58,7 @@
 			</div>
 			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p class="text-secondary">sprawdzenie przygotowanej dokumentacji</p>
+				<p class="text-primary">sprawdzenie przygotowanej dokumentacji</p>
 				<div class="grid grid-rows-2 text-right">
 					<p class="text-tertiary">100&nbsp;€</p>
 					<p class="text-secondary">za stronę</p>

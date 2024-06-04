@@ -7,11 +7,11 @@
 		stroke?: string
 	}
 
-	const { width = "24px", height = "24px", fill = "white", stroke = "black" } = defineProps<Props>()
+	const { width = "24px", height = "24px", fill = "black", stroke = "black" } = defineProps<Props>()
 </script>
 
 <template>
-	<svg v-if="type === 'document'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :fill="fill" viewBox="0 0 48 48">
+	<svg v-if="type === 'document'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" viewBox="0 0 48 48">
 		<g id="SVGRepo_iconCarrier">
 			<path
 				fill="none"
@@ -22,43 +22,28 @@
 			/>
 			<path
 				fill="none"
-				stroke="#000"
+				:stroke="stroke"
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				d="m12 4.5 1.414-1.414a2 2 0 0 1 1.414-.586H23a1 1 0 0 1 1 1v25l-5-5-5 5v-24M14 38h20M24 10h10M24 17h10M24 24h10M14 31h20"
 			/>
 		</g>
 	</svg>
-	<svg v-if="type === 'document-2'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :fill="fill" viewBox="0 0 48 48">
-		<g id="SVGRepo_iconCarrier">
-			<path
-				d="M10.364 4.51a1.994 1.994 0 0 0-1.945 1.994v35.002a1.994 1.994 0 0 0 1.944 1.994h27.224a1.994 1.994 0 0 0 1.994-1.994V14.472h-7.977a1.994 1.994 0 0 1-1.945-1.995V4.5ZM29.569 4.51l9.962 9.962M15.838 22.928h16.274M15.838 34.994h16.274M15.838 28.961h16.274"
-				fill="none"
-				stroke="#000"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-			/>
-		</g>
-	</svg>
-	<svg v-if="type === 'document-3'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :fill="fill" viewBox="0 0 48 48">
-		<g><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M5.5 5.5v37H24V24h18.5V5.5ZM24 42.5 42.5 24" /></g>
-	</svg>
-	<svg v-if="type === 'pen'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :fill="fill" viewBox="0 0 48 48">
+	<svg v-if="type === 'pen'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" viewBox="0 0 48 48">
 		<g id="SVGRepo_iconCarrier">
 			<path
 				fill="none"
-				stroke="#000"
+				:stroke="stroke"
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				d="M4.5 36.927c5.402-2.741 5.402-2.786 7.865-3.19-1.124 1.491-2.405 2.435-1.888 5.347 3.052.634 5.968-1.739 8.629-2.633-.8 1.034-2.094 3.168-.517 3.595a5.672 5.672 0 0 0 2.67-.462M26.059 35.879l-3.371 2.43 1.093-3.954"
-				class="c"
 			/>
 			<path
 				d="m35.728 22.343-9.67 13.536-2.277-1.524L32.51 20.29m0 0L41.311 7.94c.922.026 1.76.548 2.189 1.364l-7.772 13.04-3.219-2.055ZM42.809 10.597c.377 3.184-2.869 8.258-4.217 10.806"
 			/>
 		</g>
 	</svg>
-	<svg v-if="type === 'write'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :fill="fill" viewBox="0 0 48 48">
+	<svg v-if="type === 'write'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" viewBox="0 0 48 48">
 		<g id="SVGRepo_iconCarrier">
 			<path
 				fill="none"
@@ -66,6 +51,35 @@
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				d="M37.31 15.93 12.24 41 5.5 42.5 7 35.76l.51-.51 28-28 .51-.51 1.76 1.76.55-.5 2.46-2.5h0l1.71 1.71L40 9.68l-.52.51 1.8 1.81-3 3 1.41 1.42 1.45 1.44-4.88 4.88M37.81 8.48l1.71 1.71M38.31 14.93l-1 1M7 35.76 12.24 41"
+			/>
+		</g>
+	</svg>
+	<svg v-if="type === 'chat'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" viewBox="0 0 48 48">
+		<g>
+			<path
+				d="M38.368 5.942H6.553A2.053 2.053 0 0 0 4.5 7.994v20.527a2.053 2.053 0 0 0 2.053 2.052h6.157v7.378a1.026 1.026 0 0 0 1.753.726l8.103-8.104h15.802a2.053 2.053 0 0 0 2.053-2.052V7.994a2.053 2.053 0 0 0-2.053-2.052Z"
+				fill="none"
+				stroke="#000"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			/>
+			<path
+				d="M12.71 33.652H9.633A2.053 2.053 0 0 1 7.579 31.6v-1.027M40.421 9.02h1.026a2.053 2.053 0 0 1 2.053 2.053V31.6a2.053 2.053 0 0 1-2.053 2.053H35.29v7.377a1.026 1.026 0 0 1-1.752.726l-8.104-8.104h-5.947M10.145 11.191h24.631M10.145 17.94h19.158M10.145 24.689h13.684"
+				fill="none"
+				:stroke="stroke"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			/>
+		</g>
+	</svg>
+	<svg v-if="type === 'book'" xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" viewBox="0 0 64 64">
+		<g fill="#231F20">
+			<path
+				:fill="fill"
+				d="M24.008 32.038 9.541 27.904a1.005 1.005 0 0 0-1.236.688 1 1 0 0 0 .688 1.236l14.467 4.134a1 1 0 0 0 .548-1.924zM24.008 39.038 9.541 34.905a1 1 0 0 0-.548 1.924l14.467 4.133a1 1 0 0 0 .548-1.924zM24.008 25.038 9.541 20.904a1.005 1.005 0 0 0-1.236.688 1 1 0 0 0 .688 1.236l14.467 4.134a1 1 0 0 0 .548-1.924zM24.008 18.038 9.541 13.904a1.005 1.005 0 0 0-1.236.688 1 1 0 0 0 .688 1.236l14.467 4.134a1 1 0 0 0 .548-1.924zM39.963 33.962c.092 0 .184-.013.275-.038l14.467-4.134c.531-.152.839-.706.688-1.236a1.007 1.007 0 0 0-1.236-.688L39.689 32a1.002 1.002 0 0 0-.688 1.236c.127.44.527.726.962.726zM54.459 34.905l-14.467 4.133a1.001 1.001 0 0 0 .549 1.924l14.467-4.133c.531-.152.839-.705.688-1.236a1.009 1.009 0 0 0-1.237-.688zM54.459 20.904l-14.467 4.134a1.002 1.002 0 0 0-.688 1.236 1.003 1.003 0 0 0 1.237.688l14.467-4.134c.531-.152.839-.706.688-1.236a1.007 1.007 0 0 0-1.237-.688zM54.459 13.904l-14.467 4.134a1.002 1.002 0 0 0-.688 1.236 1.003 1.003 0 0 0 1.237.688l14.467-4.134c.531-.152.839-.706.688-1.236a1.009 1.009 0 0 0-1.237-.688z"
+			/>
+			<path
+				d="M63.219.414a2.008 2.008 0 0 0-1.735-.347L32 7.93 2.516.067A2.01 2.01 0 0 0 .781.414 2.003 2.003 0 0 0 0 2v49.999c0 .906.609 1.699 1.484 1.933l25.873 6.899C28.089 62.685 29.887 64 32 64s3.911-1.315 4.643-3.169l25.873-6.899A2.001 2.001 0 0 0 64 51.999V2c0-.621-.289-1.207-.781-1.586zM32 54c.173 0 .347-.022.516-.067L62 46.07v1.954l-30 7.941-30-7.941V46.07l29.484 7.862c.169.046.343.068.516.068zM1.998 2.001h.003V2L31 9.733v42L2 44 1.998 2.001zm32.981 57.204a2.992 2.992 0 0 1-1.788 2.546l-.676.181a2.008 2.008 0 0 1-1.032 0l-.676-.181a2.992 2.992 0 0 1-1.788-2.546L2 51.999v-1.906l29.744 7.874a1.01 1.01 0 0 0 .512 0L62 50.093v1.906l-27.021 7.206zM33 51.733v-42L62 2v42l-29 7.733z"
 			/>
 		</g>
 	</svg>
