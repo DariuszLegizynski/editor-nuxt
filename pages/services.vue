@@ -12,34 +12,57 @@
 				<h1 class="text-secondary">Copywriting</h1>
 				<h1 class="decorative">&nbsp;/</h1>
 			</div>
-			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between uppercase text-primary tracking-widest">
+			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between uppercase text-secondary tracking-widest">
 				<p>usługa</p>
 				<p>cena</p>
 			</div>
-			<hr class="w-full border-t-2 border-primary" />
-			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p>korekta i edycja pism</p>
-				<p>100&nbsp;€</p>
+			<hr class="w-full border-t-2 border-secondary" />
+			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between text-seco">
+				<p class="text-secondary">korekta i edycja pism</p>
+				<div class="grid grid-rows-2 text-right">
+					<p class="text-tertiary">100&nbsp;€</p>
+					<p class="text-secondary">za stronę</p>
+				</div>
 			</div>
+			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p>tłumaczenie dokumentów i pomoc w ich zrozumieniu</p>
-				<p>100&nbsp;€</p>
+				<p class="text-secondary">tłumaczenie dokumentów i pomoc w ich zrozumieniu</p>
+				<div class="grid grid-rows-2 text-right">
+					<p class="text-tertiary">100&nbsp;€</p>
+					<p class="text-secondary">za stronę</p>
+				</div>
 			</div>
+			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p>odpowiadanie na pisma urzędowe</p>
-				<p>100&nbsp;€</p>
+				<p class="text-secondary">odpowiadanie na pisma urzędowe</p>
+				<div class="grid grid-rows-2 text-right">
+					<p class="text-tertiary">100&nbsp;€</p>
+					<p class="text-secondary">za stronę</p>
+				</div>
 			</div>
+			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p>pomoc sprawach publicznych</p>
-				<p>100&nbsp;€</p>
+				<p class="text-secondary">pomoc sprawach publicznych</p>
+				<div class="grid grid-rows-2 text-right">
+					<p class="text-tertiary">100&nbsp;€</p>
+					<p class="text-secondary">za stronę</p>
+				</div>
 			</div>
+			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p>przepisywanie pism</p>
-				<p>100&nbsp;€</p>
+				<p class="text-secondary">przepisywanie pism</p>
+				<div class="grid grid-rows-2 text-right">
+					<p class="text-tertiary">100&nbsp;€</p>
+					<p class="text-secondary">za stronę</p>
+				</div>
 			</div>
+			<hr class="w-full border-t-2 border-secondary" />
 			<div class="grid grid-cols-[auto_auto] gap-x-4 justify-between">
-				<p>sprawdzenie przygotowanej dokumentacji</p>
-				<p>100&nbsp;€</p>
+				<p class="text-secondary">sprawdzenie przygotowanej dokumentacji</p>
+				<div class="grid grid-rows-2 text-right">
+					<p class="text-tertiary">100&nbsp;€</p>
+					<p class="text-secondary">za stronę</p>
+				</div>
 			</div>
 		</section>
 	</article>
