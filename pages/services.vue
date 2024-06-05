@@ -1,6 +1,6 @@
 <template>
-	<article class="h-screen flex flex-col items-center">
-		<section class="flex flex-col items-center mt-32 mb-16">
+	<article class="h-screen flex flex-col items-center mt-16 mb-32">
+		<section class="flex flex-col items-center mt-16 mb-16">
 			<h1 class="text-[2.8rem] text-center text-primary">Języki niemiecki</h1>
 			<div class="flex">
 				<h1 class="text-[2.8rem] text-center decorative">i</h1>
@@ -64,6 +64,9 @@
 					<p class="text-secondary">za stronę</p>
 				</div>
 			</div>
+		</section>
+		<section class="my-16">
+			<BaseButton link="/#contact">Kontakt</BaseButton>
 		</section>
 	</article>
 </template>

@@ -17,7 +17,7 @@
 
 <style scoped>
 	.hero-image {
-		background-image: url(@/assets/images/hero/hero.jpg);
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(@/assets/images/hero/hero.jpg);
 		background-size: cover;
 		background-position: center 0;
 		background-repeat: no-repeat;
