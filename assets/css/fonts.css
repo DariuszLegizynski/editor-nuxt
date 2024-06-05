@@ -27,7 +27,7 @@ h4,
 
 p,
 span {
-	font-family: "Roboto", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -35,11 +35,23 @@ p {
 }
 
 span {
-	font-weight: 300;
+	@apply text-[1rem];
+	font-weight: 500;
 }
 
-.decorative {
-	@apply text-contrast;
-	font-family: "Dancing", sans-serif;
-	font-weight: 300;
+@layer components {
+	.decorative {
+		@apply text-contrast;
+		font-family: "Dancing", sans-serif;
+		font-weight: 300;
+	}
+
+	.special {
+		font-family: "Playfair-Italic", serif;
+		font-weight: 600;
+	}
+
+	.italic {
+		font-family: "Montserrat-italic", sans-serif;
+	}
 }
