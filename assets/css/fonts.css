@@ -30,7 +30,16 @@ span {
 	font-family: "Roboto", sans-serif;
 }
 
-b {
-	font-family: "Roboto", sans-serif;
-	font-weight: 600;
+p {
+	font-weight: 500;
+}
+
+span {
+	font-weight: 300;
+}
+
+.decorative {
+	@apply text-contrast;
+	font-family: "Dancing", sans-serif;
+	font-weight: 300;
 }
