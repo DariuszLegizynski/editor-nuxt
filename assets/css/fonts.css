@@ -16,7 +16,7 @@ h2,
 h3,
 .h3 {
 	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 h4,
@@ -36,22 +36,5 @@ p {
 
 span {
 	@apply text-[1rem];
-	font-weight: 500;
-}
-
-@layer components {
-	.decorative {
-		@apply text-contrast;
-		font-family: "Dancing", sans-serif;
-		font-weight: 300;
-	}
-
-	.special {
-		font-family: "Playfair-Italic", serif;
-		font-weight: 600;
-	}
-
-	.italic {
-		font-family: "Montserrat-italic", sans-serif;
-	}
+	font-weight: 300;
 }

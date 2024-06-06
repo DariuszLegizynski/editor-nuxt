@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-	<article id="contact" class="flex flex-col items-center my-16">
+	<article id="contact" class="flex flex-col items-center my-16 max-w-[64rem] mx-auto">
 		<h1 class="uppercase mb-8">Kontakt</h1>
-		<section class="grid gap-y-3">
+		<section class="grid gap-y-3 lg:flex lg:gap-x-16">
 			<a class="grid grid-cols-[3rem_auto] items-center" href="tel:+48123456789">
 				<BaseIcons type="phone" width="2rem" height="2rem" />
 

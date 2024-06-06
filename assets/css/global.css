@@ -1,3 +1,22 @@
+@tailwind components;
+
 html {
 	scroll-behavior: smooth;
+}
+
+@layer components {
+	.decorative {
+		@apply text-contrast;
+		font-family: "Dancing", sans-serif;
+		font-weight: 300;
+	}
+
+	.special {
+		font-family: "Playfair-Italic", serif;
+		font-weight: 600;
+	}
+
+	.italic {
+		font-family: "Montserrat-italic", sans-serif;
+	}
 }

@@ -10,7 +10,7 @@
 </script>
 
 <template>
-	<nav ref="target" class="fixed top-0 left-0 flex justify-between items-center px-2 z-10 h-12 bg-primary bg-opacity-90 w-full">
+	<nav ref="target" class="fixed top-0 left-0 flex justify-between items-center px-2 z-10 h-12 bg-primary bg-opacity-90 w-full md:hidden">
 		<BaseButton variant="navbar"><p class="text-white">Logo</p></BaseButton>
 		<BaseBurger @click="isBurgerActive = !isBurgerActive" :active="isBurgerActive" />
 		<aside
