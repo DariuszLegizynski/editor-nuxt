@@ -14,7 +14,7 @@
 <template>
 	<article class="hero-image w-screen min-h-screen">
 		<section class="p-2 h-[90vh] flex flex-col items-center justify-end">
-			<div class="p-4 bg-black bg-opacity-30 text-white">
+			<div class="p-4 bg-black bg-opacity-40 text-white">
 				<h1 class="!text-[2.4rem] text-center special">List&nbsp;z&nbsp;urzędu po&nbsp;niemiecku?</h1>
 				<h1 ref="headline" class="text-[2.8rem] text-center invisible">Pomogę&nbsp;odpisać!</h1>
 				<p class="text-center pt-2 text-[1.2rem] italic">Tłumaczę, wyjaśniam i odpowiadam na pisma urzędowe. Wspieram w komunikacji z tymi instytucjami.</p>
@@ -28,9 +28,10 @@
 
 <style scoped>
 	.hero-image {
-		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url(@/assets/images/hero/hero.jpg);
+		background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+			url(@/assets/images/hero/stock-photo-the-perfect-space-to-get-creative-cropped-shot-of-designers-working-in-a-creative-office-2146083873.jpg);
 		background-size: cover;
-		background-position: center 0;
+		background-position: 65% bottom;
 		background-repeat: no-repeat;
 	}
 </style>

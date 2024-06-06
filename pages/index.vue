@@ -1,7 +1,7 @@
 <template>
-  <HomeHero />
-  <HomeServices />
-  <HomeAbout />
-  <HomeTestimonials />
-  <HomeContact />
+	<HomeHero class="mt-12" />
+	<HomeServices />
+	<HomeAbout />
+	<HomeTestimonials />
+	<HomeContact />
 </template>

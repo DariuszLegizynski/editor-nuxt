@@ -8,7 +8,7 @@
 			<h1 class="mt-2">zmaganiach z biurokracją:</h1>
 		</section>
 		<section>
-			<section class="px-4">
+			<section class="px-4 md:grid md:grid-cols-2 gap-x-8">
 				<div class="flex flex-col items-center my-16 text-center">
 					<AnimationBook width="6rem" height="6rem" fillColor="hsl(46, 65%, 52%)" strokeColor="hsl(46, 65%, 52%)" />
 					<div class="bg-secondary rounded-3xl mt-4 p-4">
