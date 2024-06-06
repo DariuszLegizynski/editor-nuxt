@@ -13,7 +13,7 @@
 
 <template>
 	<article class="hero-image w-screen mt-12 bg-cover lg:h-screen">
-		<section class="p-2 h-[90vh] max-w-[44rem] flex flex-col items-center justify-end mx-auto">
+		<section class="p-2 h-[90vh] max-w-[44rem] flex flex-col items-center justify-end mx-auto md:pb-12">
 			<div class="p-4 bg-black bg-opacity-40 text-white">
 				<h1 class="!text-[2.4rem] text-center special">List&nbsp;z&nbsp;urzędu po&nbsp;niemiecku?</h1>
 				<h1 ref="headline" class="text-[2.8rem] text-center invisible">Pomogę&nbsp;odpisać!</h1>
