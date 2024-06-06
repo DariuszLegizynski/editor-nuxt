@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-	<article class="flex flex-col items-center px-4 mt-16">
+	<article class="flex flex-col items-center px-4 mt-8">
 		<h1 class="uppercase">Opinie klientów</h1>
 		<section>
 			<div class="my-8">

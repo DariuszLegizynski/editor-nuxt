@@ -1,34 +1,45 @@
 <script setup lang="ts"></script>
 
 <template>
-	<article id="services" class="mt-28">
+	<article id="services" class="mt-28 px-4">
+		<section class="text-center text-[2.4rem]">
+			<h1>Pomagam</h1>
+			<h1 class="decorative text-[2.8rem]">w codziennych</h1>
+			<h1 class="mt-2">zmaganiach z biurokracją:</h1>
+		</section>
 		<section>
-			<div class="h3 text-primary text-center uppercase">Sprachdienste im Angebot</div>
-			<h1 class="uppercase tracking-[3px] text-center my-6">Meine Leistungen</h1>
 			<section class="px-4">
-				<div class="flex flex-col items-center my-16">
-					<BaseIcons type="document" width="6rem" height="6rem" />
-					<h2 class="my-4">Übersetzungen</h2>
-					<span>Ich biete professionelle Übersetzungen in den Sprachen Deutsch, Englisch, Polnisch und Russisch an.</span>
+				<div class="flex flex-col items-center my-16 text-center">
+					<AnimationBook width="6rem" height="6rem" fillColor="hsl(46, 65%, 52%)" strokeColor="hsl(46, 65%, 52%)" />
+					<div class="bg-secondary rounded-3xl mt-4 p-4">
+						<h2 class="my-4 uppercase text-center">Pisanie treści</h2>
+						<span>Specjalizuję się w pisaniu treści na potrzeby komunikacji z instytucjami.</span>
+					</div>
 				</div>
-				<div class="flex flex-col items-center my-16">
-					<BaseIcons type="pen" width="6rem" height="6rem" />
-					<h2 class="my-4">Dolmetschen</h2>
-					<span>Ich biete spanrofessionelle Dolmetscherdienste in den Sprachen Deutsch, Englisch, Polnisch und Russisch an.</span>
+				<div class="flex flex-col items-center my-16 text-center">
+					<AnimationPen width="6rem" height="6rem" fillColor="hsl(46, 65%, 52%)" strokeColor="hsl(46, 65%, 52%)" />
+					<div class="bg-secondary rounded-3xl mt-4 p-4">
+						<h2 class="my-4 uppercase text-center">Edycja i korekta</h2>
+						<span>Redaguję i sprawdzam treści, aby je dopracować i nadać im blasku.</span>
+					</div>
 				</div>
-				<div class="flex flex-col items-center my-16">
-					<BaseIcons type="document-2" width="6rem" height="6rem" />
-					<h2 class="my-4">Texterstellung</h2>
-					<span>Ich biete professionelle Texterstellung in den Sprachen Deutsch, Englisch, Polnisch und Russisch an.</span>
+				<div class="flex flex-col items-center my-16 text-center">
+					<AnimationChat width="6rem" height="6rem" fillColor="hsl(46, 65%, 52%)" strokeColor="hsl(46, 65%, 52%)" />
+					<div class="bg-secondary rounded-3xl mt-4 p-4">
+						<h2 class="my-4 uppercase text-center">Tłumaczenia</h2>
+						<span>Tłumaczę i objaśniam pisma urzędowe aby stały się zrozumiałe.</span>
+					</div>
 				</div>
-				<div class="flex flex-col items-center my-16">
-					<BaseIcons type="write" width="6rem" height="6rem" />
-					<h2 class="my-4">Textkorrektur</h2>
-					<span>Ich biete professionelle Textkorrektur in den Sprachen Deutsch, Englisch, Polnisch und Russisch an.</span>
+				<div class="flex flex-col items-center my-16 text-center">
+					<AnimationDocument width="6rem" height="6rem" fillColor="hsl(46, 65%, 52%)" strokeColor="hsl(46, 65%, 52%)" />
+					<div class="bg-secondary rounded-3xl mt-4 p-4">
+						<h2 class="my-4 uppercase text-center">copywriting</h2>
+						<span>Piszę dobrze zbadane, angażujące teksty.</span>
+					</div>
 				</div>
 			</section>
 			<section class="flex flex-col items-center mb-16">
-				<BaseButton>Więcej</BaseButton>
+				<BaseButton link="/services">Więcej</BaseButton>
 			</section>
 		</section>
 	</article>

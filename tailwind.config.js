@@ -4,10 +4,10 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				primary: "hsl(16, 14%, 72%)",
-				secondary: "hsl(210, 29%, 24%)",
-				tertiary: "hsl(144, 35%, 75%)",
-				contrast: "	hsl(46, 65%, 52%)",
+				primary: "hsl(6, 14%, 72%)",
+				secondary: "hsl(7, 14%, 85%)",
+				tertiary: "hsl(16, 28%, 40%)",
+				contrast: "hsl(46, 65%, 52%)",
 				black: "hsl(5, 0%, 0%)",
 				white: "hsl(5, 0%, 100%)",
 			},
@@ -20,5 +20,3 @@ export default {
 	},
 	plugins: [],
 }
-
-
