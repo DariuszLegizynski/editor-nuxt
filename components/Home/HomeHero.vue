@@ -12,8 +12,8 @@
 </script>
 
 <template>
-	<article class="hero-image w-screen min-h-screen">
-		<section class="p-2 h-[90vh] flex flex-col items-center justify-end">
+	<article class="hero-image w-screen mt-12 bg-cover lg:h-screen">
+		<section class="p-2 h-[90vh] max-w-[44rem] flex flex-col items-center justify-end mx-auto">
 			<div class="p-4 bg-black bg-opacity-40 text-white">
 				<h1 class="!text-[2.4rem] text-center special">List&nbsp;z&nbsp;urzędu po&nbsp;niemiecku?</h1>
 				<h1 ref="headline" class="text-[2.8rem] text-center invisible">Pomogę&nbsp;odpisać!</h1>
@@ -30,8 +30,7 @@
 	.hero-image {
 		background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
 			url(@/assets/images/hero/stock-photo-the-perfect-space-to-get-creative-cropped-shot-of-designers-working-in-a-creative-office-2146083873.jpg);
-		background-size: cover;
-		background-position: 65% bottom;
+		background-position: 65% 0;
 		background-repeat: no-repeat;
 	}
 </style>

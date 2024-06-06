@@ -1,5 +1,6 @@
 <template>
-	<SharedHeader />
+	<SharedHeaderMobile />
+	<!-- <SharedHeaderDesktop /> -->
 	<slot />
 	<SharedFooter />
 </template>

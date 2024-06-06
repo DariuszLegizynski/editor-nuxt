@@ -1,5 +1,5 @@
 <template>
-	<HomeHero class="mt-12" />
+	<HomeHero />
 	<HomeServices />
 	<HomeAbout />
 	<HomeTestimonials />
