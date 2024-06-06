@@ -52,7 +52,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="flex flex-col items-center mb-16 md:mb-0 md:my-10">
+			<section class="flex flex-col items-center mb-16 md:mb-0 md:my-10 lg:my-0 lg:mt-10 lg:mb-32">
 				<BaseButton link="/services">Więcej</BaseButton>
 			</section>
 		</section>
