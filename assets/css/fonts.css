@@ -38,20 +38,3 @@ span {
 	@apply text-[1rem];
 	font-weight: 500;
 }
-
-@layer components {
-	.decorative {
-		@apply text-contrast;
-		font-family: "Dancing", sans-serif;
-		font-weight: 300;
-	}
-
-	.special {
-		font-family: "Playfair-Italic", serif;
-		font-weight: 600;
-	}
-
-	.italic {
-		font-family: "Montserrat-italic", sans-serif;
-	}
-}
